@@ -1,0 +1,10 @@
+{
+  "executed_at_utc": "2026-11-10T20:46:49.811625+00:00",
+  "held_out_corpus": "crema-d",
+  "checkpoint_sha256": "9b53ff625ce46a670a1b9d2629e773ca3e0fdaa0ce771f45fba1ebbf42580c53",
+  "test_evaluated_once": true,
+  "test_recordings": 7434,
+  "accuracy": 0.3614474038202852,
+  "uar": 0.35409100918087,
+  "macro_f1": 0.32357371359559745
+}

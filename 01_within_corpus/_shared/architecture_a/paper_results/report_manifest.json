@@ -1,0 +1,11 @@
+{
+  "architecture": "architecture_a",
+  "completed_datasets": [
+    "ravdess",
+    "crema-d",
+    "emodb",
+    "emovo"
+  ],
+  "completed": 4,
+  "expected": 4
+}

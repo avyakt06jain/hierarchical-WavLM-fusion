@@ -1,0 +1,108 @@
+{
+  "protocol": "WAVLM_LARGE_MEANPOOL_BASELINE_LOCO_SIX_CLASS_SPEAKER_DISJOINT_SOURCE_VAL_V1",
+  "held_out_corpus": "emovo",
+  "training_corpora": [
+    "ravdess",
+    "crema-d",
+    "emodb"
+  ],
+  "source_val_only": true,
+  "heldout_is_entire_corpus": true,
+  "six_class_ontology": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy",
+    "Fear",
+    "Disgust"
+  ],
+  "pretrained": "microsoft/wavlm-large",
+  "checkpoint_revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+  "model_architecture": "WavLM-Large [24x1024] -> last-layer masked mean pool -> LayerNorm(1024) -> Dropout(.30) -> Linear(1024,6)",
+  "learning_stages": "4 frozen + up to 24 top-6-layer finetuning",
+  "audio": {
+    "resample_hz": 16000,
+    "crop_seconds": 3.0,
+    "window_samples": 48000,
+    "train_crop": "5-region cyclic with +/-300ms jitter",
+    "eval_sliding_hop_fraction": 0.5,
+    "max_eval_windows": 5,
+    "amplitude": "no independent peak/loudness normalization; HF masked standardization",
+    "silence_trimming": "none; retain emotion-related pauses"
+  },
+  "augmentation": "15% low-level Gaussian noise (23-36 dB SNR), training only",
+  "batch": {
+    "micro": 12,
+    "grad_accum": 2,
+    "effective": 24,
+    "updates_per_virtual_epoch": 150,
+    "balanced_classes": true,
+    "cross_corpus_paired_sampling": true,
+    "speaker_uniform_within_corpus_class": true
+  },
+  "gpu_budget": {
+    "target_gib": 13.5,
+    "pytorch_allocator_gib": 12.0,
+    "non_pytorch_headroom_gib": 1.5
+  },
+  "objective": "CrossEntropy(label_smoothing=0.05) only; no SupCon",
+  "checkpoint_selection": "macro-average of source-corpus validation UAR; source speakers disjoint",
+  "early_stopping": {
+    "patience": 7,
+    "min_delta": 0.002
+  },
+  "optimizer_schedule": {
+    "head_lr_frozen": 0.0003,
+    "head_lr_finetune": 0.0001,
+    "top6_lr": 5e-06,
+    "layerwise_decay": 0.8,
+    "weight_decay": 0.01,
+    "warmup_fraction_per_stage": 0.1,
+    "cosine_decay_floor": 0.05,
+    "max_epochs": 28
+  },
+  "seed": 42,
+  "source_validation_speakers": {
+    "ravdess": [
+      "ravdess:07",
+      "ravdess:17",
+      "ravdess:19",
+      "ravdess:21",
+      "ravdess:22"
+    ],
+    "crema-d": [
+      "crema-d:1013",
+      "crema-d:1014",
+      "crema-d:1017",
+      "crema-d:1018",
+      "crema-d:1027",
+      "crema-d:1028",
+      "crema-d:1030",
+      "crema-d:1032",
+      "crema-d:1040",
+      "crema-d:1043",
+      "crema-d:1048",
+      "crema-d:1049",
+      "crema-d:1050",
+      "crema-d:1051",
+      "crema-d:1055",
+      "crema-d:1063",
+      "crema-d:1073",
+      "crema-d:1086"
+    ],
+    "emodb": [
+      "emodb:13",
+      "emodb:14"
+    ]
+  },
+  "split_fingerprint": "2c5014c3d7dbd6b0eb9fd244675f7ec398d941667302b99865a73b39ef16e05f",
+  "manifest_fingerprint": "58bcd5d73babcf4e7dfd11d0e1ad48412361b92577d7938a7027f03f396f3fc0",
+  "sizes": {
+    "train": 7141,
+    "val": 1802,
+    "test": 504
+  },
+  "test_speaker_count": 6,
+  "python": "3.12.3",
+  "pytorch": "2.6.0a0+df5bbc09d1.nv24.12"
+}

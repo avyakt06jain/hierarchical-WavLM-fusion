@@ -1,0 +1,90 @@
+[
+  {
+    "subject_id": 1,
+    "n_recordings": 30,
+    "correct": 21,
+    "accuracy": 0.7,
+    "uar": 0.6964285714285714,
+    "macro_f1": 0.6928571428571428
+  },
+  {
+    "subject_id": 2,
+    "n_recordings": 30,
+    "correct": 24,
+    "accuracy": 0.8,
+    "uar": 0.7901785714285714,
+    "macro_f1": 0.787377450980392
+  },
+  {
+    "subject_id": 3,
+    "n_recordings": 30,
+    "correct": 30,
+    "accuracy": 1.0,
+    "uar": 1.0,
+    "macro_f1": 1.0
+  },
+  {
+    "subject_id": 4,
+    "n_recordings": 30,
+    "correct": 19,
+    "accuracy": 0.6333333333333333,
+    "uar": 0.6339285714285714,
+    "macro_f1": 0.6339285714285714
+  },
+  {
+    "subject_id": 5,
+    "n_recordings": 30,
+    "correct": 29,
+    "accuracy": 0.9666666666666667,
+    "uar": 0.9642857142857143,
+    "macro_f1": 0.9641025641025641
+  },
+  {
+    "subject_id": 6,
+    "n_recordings": 30,
+    "correct": 25,
+    "accuracy": 0.8333333333333334,
+    "uar": 0.8214285714285714,
+    "macro_f1": 0.8128342245989305
+  },
+  {
+    "subject_id": 7,
+    "n_recordings": 30,
+    "correct": 24,
+    "accuracy": 0.8,
+    "uar": 0.7991071428571428,
+    "macro_f1": 0.7981900452488688
+  },
+  {
+    "subject_id": 8,
+    "n_recordings": 30,
+    "correct": 27,
+    "accuracy": 0.9,
+    "uar": 0.90625,
+    "macro_f1": 0.899702380952381
+  },
+  {
+    "subject_id": 9,
+    "n_recordings": 30,
+    "correct": 29,
+    "accuracy": 0.9666666666666667,
+    "uar": 0.9642857142857143,
+    "macro_f1": 0.9660633484162896
+  },
+  {
+    "subject_id": 10,
+    "n_recordings": 30,
+    "correct": 30,
+    "accuracy": 1.0,
+    "uar": 1.0,
+    "macro_f1": 1.0
+  },
+  {
+    "subject_id": 11,
+    "n_recordings": 28,
+    "correct": 27,
+    "accuracy": 0.9642857142857143,
+    "uar": 0.9642857142857143,
+    "macro_f1": 0.9641025641025641
+  }
+]

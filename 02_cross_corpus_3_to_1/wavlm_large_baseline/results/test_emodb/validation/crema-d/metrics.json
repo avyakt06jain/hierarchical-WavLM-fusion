@@ -1,0 +1,22 @@
+{
+  "n_recordings": 1471,
+  "n_speakers": 18,
+  "accuracy": 0.6437797416723318,
+  "uar": 0.6467175425282995,
+  "macro_f1": 0.6407990135451251,
+  "weighted_f1": 0.6398966043934174,
+  "cross_entropy": 1.0752532481176587,
+  "auroc_macro_ovr": 0.9031254563391715,
+  "ece_15_bins": 0.18844922860671812,
+  "mean_speaker_accuracy": 0.643516427448225,
+  "mean_speaker_uar": 0.6463420838420837,
+  "bootstrap_unit": "speaker (cluster bootstrap)",
+  "accuracy_95ci_speaker_bootstrap": [
+    0.6024518519136812,
+    0.6836051984501516
+  ],
+  "uar_95ci_speaker_bootstrap": [
+    0.606241523209345,
+    0.6856948373173971
+  ]
+}

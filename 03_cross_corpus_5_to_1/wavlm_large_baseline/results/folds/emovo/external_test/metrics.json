@@ -1,0 +1,48 @@
+{
+  "n_recordings": 336,
+  "n_subjects": 6,
+  "pooled_accuracy": 0.49404761904761907,
+  "macro_f1": 0.4584104324880557,
+  "uar": 0.49404761904761907,
+  "mean_subject_accuracy": 0.49404761904761907,
+  "mean_subject_macro_f1": 0.4367135738425055,
+  "std_subject_accuracy": 0.0693139363238554,
+  "confusion_matrix": [
+    [
+      25,
+      4,
+      52,
+      3
+    ],
+    [
+      19,
+      48,
+      11,
+      6
+    ],
+    [
+      0,
+      0,
+      83,
+      1
+    ],
+    [
+      1,
+      0,
+      73,
+      10
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.4464285714285714,
+    0.5416666666666666
+  ],
+  "report_name": "EMOVO: external zero-shot test",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "LayerNorm + dropout + Linear(1024,4)"
+}

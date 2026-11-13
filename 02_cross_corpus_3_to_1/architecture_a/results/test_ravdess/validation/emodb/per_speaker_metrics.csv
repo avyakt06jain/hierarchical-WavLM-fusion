@@ -1,0 +1,3 @@
+speaker_id,corpus,n_recordings,accuracy,uar,macro_f1
+emodb:13,emodb,51,0.9411764705882353,0.9398148148148149,0.9274976657329598
+emodb:14,emodb,61,1.0,1.0,1.0

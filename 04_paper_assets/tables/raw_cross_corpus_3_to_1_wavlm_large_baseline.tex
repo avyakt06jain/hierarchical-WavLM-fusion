@@ -1,0 +1,10 @@
+\begin{tabular}{llrrrrrrrrrrrrrrrlll}
+\toprule
+Test corpus & Train corpora & N & Speakers & Accuracy & UAR & Macro F1 & Weighted F1 & AUROC OvR & Cross entropy & ECE & Accuracy CI low & Accuracy CI high & UAR CI low & UAR CI high & Best epoch & Source validation mean UAR & protocol & model & target \\
+\midrule
+RAVDESS & CREMA-D + EMODB + EMOVO & 1055 & 24 & 0.50 & 0.53 & 0.46 & 0.46 & 0.87 & 1.30 & 0.04 & 0.46 & 0.54 & 0.49 & 0.57 & 4 & 0.68 & cross_corpus_3_to_1 & wavlm_large_baseline & RAVDESS \\
+CREMA-D & RAVDESS + EMODB + EMOVO & 7434 & 91 & 0.36 & 0.35 & 0.32 & 0.33 & 0.79 & 1.52 & 0.14 & 0.35 & 0.38 & 0.34 & 0.37 & 3 & 0.67 & cross_corpus_3_to_1 & wavlm_large_baseline & CREMA-D \\
+EMODB & RAVDESS + CREMA-D + EMOVO & 454 & 10 & 0.69 & 0.70 & 0.68 & 0.71 & 0.96 & 0.90 & 0.15 & 0.65 & 0.74 & 0.66 & 0.74 & 4 & 0.58 & cross_corpus_3_to_1 & wavlm_large_baseline & EMODB \\
+EMOVO & RAVDESS + CREMA-D + EMODB & 504 & 6 & 0.50 & 0.50 & 0.47 & 0.47 & 0.88 & 1.20 & 0.05 & 0.43 & 0.56 & 0.43 & 0.56 & 3 & 0.73 & cross_corpus_3_to_1 & wavlm_large_baseline & EMOVO \\
+\bottomrule
+\end{tabular}

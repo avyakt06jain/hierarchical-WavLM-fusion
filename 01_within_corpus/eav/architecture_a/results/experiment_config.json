@@ -1,0 +1,28 @@
+{
+  "format": "EAV_ARCH_A_WAVLM_LARGE_GHF_DPTP_SUPCON_5CLASS_V2",
+  "protocol": "EAV_42_SUBJECT_OVERLAPPING_ORIGINAL_SPEAKING_RECORDING_DISJOINT_STRATIFIED_70_15_15_SEED42",
+  "manifest_sha": "8615e09d80581310d8a6375359d4094fa4b259b7a61bc9860ab1aaa4d41243c0",
+  "training_settings": {
+    "window_seconds": 5.0,
+    "eval_windows": 0,
+    "train_views_per_recording": 1,
+    "noise_probability": 0.1,
+    "head_lr": 0.0003,
+    "finetune_head_lr": 0.0001,
+    "wavlm_lr": 5e-06,
+    "supcon_weight": 0.05,
+    "label_smoothing": 0.03,
+    "frozen_epochs": 4,
+    "max_epochs": 30,
+    "patience": 8,
+    "seed": 42,
+    "batch_size": 4,
+    "grad_accum": 5,
+    "checkpoint_revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+    "disable_supcon": false
+  },
+  "setting_sha": "d80c5792971752b01fb448fb87385685a055ae0ac7f68baac1beb50beefe6c2f",
+  "source_script_sha256": "26c0c26c95bf03795852baba35b9668de07561a4deea3cf230c7acd1ab49ae36",
+  "model": "WavLM-Large + GHF(4 x 6 transformer layers) + DPTP(512) + SupCon",
+  "note": "EAV 42-subject speaker-overlapping 70/15/15 original-recording split; not LOSO."
+}

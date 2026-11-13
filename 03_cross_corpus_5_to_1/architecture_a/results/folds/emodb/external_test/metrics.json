@@ -1,0 +1,48 @@
+{
+  "n_recordings": 339,
+  "n_subjects": 10,
+  "pooled_accuracy": 0.9587020648967551,
+  "macro_f1": 0.9543625110846371,
+  "uar": 0.9565074678821135,
+  "mean_subject_accuracy": 0.960227172795322,
+  "mean_subject_macro_f1": 0.9512508802821568,
+  "std_subject_accuracy": 0.04172215501725393,
+  "confusion_matrix": [
+    [
+      70,
+      6,
+      0,
+      3
+    ],
+    [
+      0,
+      61,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      125,
+      2
+    ],
+    [
+      0,
+      0,
+      2,
+      69
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.9350698716634872,
+    0.9842794603770214
+  ],
+  "report_name": "EmoDB: external zero-shot test",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "GHF 4x6 + DPTP attention/stats + Linear(512,256) + GELU + Dropout + Linear(256,4)"
+}

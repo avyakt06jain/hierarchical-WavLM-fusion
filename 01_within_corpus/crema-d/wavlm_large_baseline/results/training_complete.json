@@ -1,0 +1,14 @@
+{
+  "completed_at_utc": "2026-11-10T23:19:50.839427+00:00",
+  "experiment": "crema-d",
+  "best_epoch": 4,
+  "best_validation": {
+    "val_macro_corpus_uar": 0.668984181554014,
+    "val_macro_corpus_f1": 0.6652661388120659,
+    "val_macro_corpus_acc": 0.6685032139577594,
+    "val_loss": 0.9865915237409835
+  },
+  "best_checkpoint_sha256": "e08a688924d58cfdbab0330ca3901e24dbbb1d9c4ba7630eade42beb543a00cd",
+  "split_fingerprint": "4b6792bd5b0170a422df7ab862376d096ec768ea4c48bcfe0d27ebea6ff52964",
+  "note": "Test recordings were not evaluated during checkpoint selection"
+}

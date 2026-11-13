@@ -1,0 +1,10 @@
+{
+  "executed_at_utc": "2026-11-10T20:38:12.846154+00:00",
+  "held_out_corpus": "ravdess",
+  "checkpoint_sha256": "98c3b071013e82bebf1d9ecf30afcaf26df692cea976c37e3aae2d8c92d14165",
+  "test_evaluated_once": true,
+  "test_recordings": 1055,
+  "accuracy": 0.5023696682464455,
+  "uar": 0.5278504944735312,
+  "macro_f1": 0.46011689164132025
+}

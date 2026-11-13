@@ -1,0 +1,9 @@
+{
+  "data_root": "/workspace/data/pme4/pme4-dataset",
+  "source_paths_sha256": {
+    "/workspace/data/pme4/pme4-dataset/PME4_dataset_configs.csv": "6039992b452dcd391059d482336dd917543df541d5bbc9a95c16f7c82d7fb402"
+  },
+  "recording_split_sha256": "bdd10271ab37c8c4f52023b4396605670e103b9c07b666a2f344c2c8c8aa8b56",
+  "model": "WavLM-Large + masked mean + LayerNorm + Dropout(0.30) + Linear(N)",
+  "research_caveat": "Speakers overlap between partitions; test is recording-disjoint but not speaker-independent."
+}

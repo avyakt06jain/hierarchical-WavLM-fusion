@@ -1,0 +1,28 @@
+{
+  "n_recordings": 454,
+  "n_speakers": 10,
+  "accuracy": 0.6938325991189427,
+  "uar": 0.7041694546331242,
+  "macro_f1": 0.6797845996774461,
+  "weighted_f1": 0.7050737159233212,
+  "cross_entropy": 0.9004289719116938,
+  "auroc_macro_ovr": 0.958335741143113,
+  "ece_15_bins": 0.1502514926755471,
+  "mean_speaker_accuracy": 0.690308003085013,
+  "mean_speaker_uar": 0.668930513930514,
+  "bootstrap_unit": "speaker (cluster bootstrap)",
+  "accuracy_95ci_speaker_bootstrap": [
+    0.6503315923753359,
+    0.7357633294442284
+  ],
+  "uar_95ci_speaker_bootstrap": [
+    0.6589408017532503,
+    0.7405577394044236
+  ],
+  "held_out_corpus": "emodb",
+  "best_epoch": 4,
+  "source_val_mean_corpus_uar": 0.5821984808020665,
+  "checkpoint_sha256": "91cc62bac1488e5affed1276f31e4652e464d48049ee2697b697d36b05001e24",
+  "split_fingerprint": "2adf7b1ce319b392b63663ee4781f92abfd0c594e68b706fc3bcfe296360d76c",
+  "test_protocol": "whole unseen corpus, all available speakers, once"
+}

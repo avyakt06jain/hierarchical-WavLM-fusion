@@ -1,0 +1,58 @@
+{
+  "target": "CREMA-D",
+  "n_target_recordings": 4897,
+  "n_target_speakers": 91,
+  "model": "microsoft/wavlm-large",
+  "checkpoint": "/workspace/avyakt-sc-final/final-speech-rp/architecture_a/folds/crema_d/best.pth",
+  "no_target_training_or_selection": true,
+  "checkpoint_chosen_by": "five SOURCE corpus validation",
+  "measured_once": true,
+  "metrics": {
+    "n_recordings": 4897,
+    "n_subjects": 91,
+    "pooled_accuracy": 0.6187461711251787,
+    "macro_f1": 0.6048778550209375,
+    "uar": 0.6134833539307288,
+    "mean_subject_accuracy": 0.6187153554932946,
+    "mean_subject_macro_f1": 0.5972521296992356,
+    "std_subject_accuracy": 0.09593826748342386,
+    "confusion_matrix": [
+      [
+        516,
+        148,
+        275,
+        147
+      ],
+      [
+        360,
+        749,
+        107,
+        54
+      ],
+      [
+        37,
+        13,
+        1182,
+        39
+      ],
+      [
+        166,
+        63,
+        458,
+        583
+      ]
+    ],
+    "mean_subject_accuracy_95ci_bootstrap": [
+      0.5985534062507938,
+      0.6377490842490842
+    ],
+    "report_name": "CREMA-D: external zero-shot test",
+    "class_order": [
+      "Neutral",
+      "Sad",
+      "Angry",
+      "Happy"
+    ],
+    "head": "GHF 4x6 + DPTP attention/stats + Linear(512,256) + GELU + Dropout + Linear(256,4)"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "/workspace/final-speech-paper",
+  "output": "/workspace/final-speech-paper/04_paper_assets",
+  "generated_tables": [
+    "raw_cross_corpus_3_to_1_architecture_a.csv",
+    "raw_cross_corpus_3_to_1_architecture_a.md",
+    "raw_cross_corpus_3_to_1_architecture_a.tex",
+    "raw_cross_corpus_3_to_1_wavlm_large_baseline.csv",
+    "raw_cross_corpus_3_to_1_wavlm_large_baseline.md",
+    "raw_cross_corpus_3_to_1_wavlm_large_baseline.tex",
+    "raw_cross_corpus_5_to_1_architecture_a.csv",
+    "raw_cross_corpus_5_to_1_architecture_a.md",
+    "raw_cross_corpus_5_to_1_architecture_a.tex",
+    "raw_cross_corpus_5_to_1_wavlm_large_baseline.csv",
+    "raw_cross_corpus_5_to_1_wavlm_large_baseline.md",
+    "raw_cross_corpus_5_to_1_wavlm_large_baseline.tex",
+    "raw_within_corpus_architecture_a.csv",
+    "raw_within_corpus_architecture_a.md",
+    "raw_within_corpus_architecture_a.tex",
+    "raw_within_corpus_wavlm_large_baseline.csv",
+    "raw_within_corpus_wavlm_large_baseline.md",
+    "raw_within_corpus_wavlm_large_baseline.tex",
+    "table_dataset_recording_counts.csv",
+    "table_dataset_recording_counts.md",
+    "table_dataset_recording_counts.tex",
+    "table_master_results_all_experiments.csv",
+    "table_master_results_all_experiments.md",
+    "table_master_results_all_experiments.tex",
+    "table_paper_main_comparison.csv",
+    "table_paper_main_comparison.md",
+    "table_paper_main_comparison.tex"
+  ],
+  "generated_figures": [
+    "figure_cross_corpus_3_to_1_macro_f1.png",
+    "figure_cross_corpus_5_to_1_macro_f1.png",
+    "figure_dataset_recording_counts.png",
+    "figure_overall_comparison.png",
+    "figure_within_corpus_macro_f1.png"
+  ],
+  "copied_assets": [
+    {
+      "source": "/workspace/final-speech-paper/01_within_corpus/_shared/architecture_a/paper_results",
+      "copied_to": "/workspace/final-speech-paper/04_paper_assets/copied_existing/within_architecture_a_paper_results"
+    },
+    {
+      "source": "/workspace/final-speech-paper/01_within_corpus/_shared/wavlm_large_baseline/paper_results",
+      "copied_to": "/workspace/final-speech-paper/04_paper_assets/copied_existing/within_wavlm_baseline_paper_results"
+    },
+    {
+      "source": "/workspace/final-speech-paper/02_cross_corpus_3_to_1/architecture_a/results/paper_results",
+      "copied_to": "/workspace/final-speech-paper/04_paper_assets/copied_existing/cross3_architecture_a_paper_results"
+    },
+    {
+      "source": "/workspace/final-speech-paper/02_cross_corpus_3_to_1/wavlm_large_baseline/results/paper_results",
+      "copied_to": "/workspace/final-speech-paper/04_paper_assets/copied_existing/cross3_wavlm_baseline_paper_results"
+    },
+    {
+      "source": "/workspace/final-speech-paper/03_cross_corpus_5_to_1/architecture_a/results/paper_ready",
+      "copied_to": "/workspace/final-speech-paper/04_paper_assets/copied_existing/cross5_architecture_a_paper_results"
+    },
+    {
+      "source": "/workspace/final-speech-paper/03_cross_corpus_5_to_1/wavlm_large_baseline/results/paper_ready",
+      "copied_to": "/workspace/final-speech-paper/04_paper_assets/copied_existing/cross5_wavlm_baseline_paper_results"
+    },
+    {
+      "source": "/workspace/final-speech-paper/01_within_corpus/_shared/architecture_a/audit/class_counts_by_corpus.png",
+      "copied_to": "/workspace/final-speech-paper/04_paper_assets/copied_existing/audit_class_counts_by_corpus.png"
+    },
+    {
+      "source": "/workspace/final-speech-paper/01_within_corpus/_shared/architecture_a/audit/audio_duration_boxplot.png",
+      "copied_to": "/workspace/final-speech-paper/04_paper_assets/copied_existing/audit_audio_duration_boxplot.png"
+    }
+  ]
+}

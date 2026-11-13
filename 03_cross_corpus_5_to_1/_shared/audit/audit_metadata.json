@@ -1,0 +1,29 @@
+{
+  "audit_config": {
+    "data_root": "/workspace/avyakt-sc-final/data",
+    "seed": 2026,
+    "skip_sha": false,
+    "min_audio_seconds": 0.15,
+    "pme4_speech_trim": true,
+    "trim_context": 0.15,
+    "audit_version": "loco_plain_wavlm_v2_signal_audit_20261108"
+  },
+  "audit_sha256": "ec75e98020d2a0e17c93ca2a96155f0742b071c397929268c31ee1743a7a8788",
+  "usable_counts": {
+    "CREMA-D": 4897,
+    "EAV": 3360,
+    "PME4": 2189,
+    "RAVDESS": 670,
+    "EmoDB": 339,
+    "EMOVO": 336
+  },
+  "classes": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "external_corpus_label_mapping": "normalized four emotions",
+  "exact_duplicate_policy": "all members quarantined (when hashing enabled)",
+  "source_validation_speakers": "stable corpus-wise 15% group split; never target-used"
+}

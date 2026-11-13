@@ -1,0 +1,23 @@
+{
+  "test_evaluated_once": true,
+  "date_utc": "2026-11-06T18:31:41.969153+00:00",
+  "checkpoint": "/workspace/avyakt-sc-final/outputs/pme4_architecture_a_all11_trial_70_15_15_v2_fixed/best.pth",
+  "checkpoint_sha256": "b7b8d1f2ae65c46c701c698939df7cd11fd6a6c8ca44264a9f761d692dae5c4f",
+  "test_metric": "mean_of_eleven_individual_subject_accuracies",
+  "msa": 0.8694805194805194,
+  "subject_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "split_sha256": "0b13ea75b8460e81b903e9810adda2eb4bc874595a82cf0d82cdc3f8e930f715",
+  "warning": "Test set must not be used for subsequent architecture/parameter selection."
+}

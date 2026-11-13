@@ -1,0 +1,12 @@
+\begin{tabular}{llrrrrrrrrrrrrrlll}
+\toprule
+target_corpus & train_corpora & train_recordings & source_val_recordings & target_test_recordings & test_speakers & selected_epoch & source_val_mean_corpus_macro_f1 & test_mean_subject_accuracy & test_pooled_accuracy & test_macro_f1 & test_uar & test_mean_subject_macro_f1 & msa_ci_low & msa_ci_high & protocol & model & target \\
+\midrule
+EAV & CREMA-D + EmoDB + EMOVO + PME4 + RAVDESS & 7043 & 1388 & 3360 & 42 & 11 & 0.82 & 0.46 & 0.46 & 0.41 & 0.46 & 0.38 & 0.43 & 0.50 & cross_corpus_5_to_1 & architecture_a & EAV \\
+CREMA-D & EAV + EmoDB + EMOVO + PME4 + RAVDESS & 5780 & 1114 & 4897 & 91 & 12 & 0.85 & 0.62 & 0.62 & 0.60 & 0.61 & 0.60 & 0.60 & 0.64 & cross_corpus_5_to_1 & architecture_a & CREMA-D \\
+EmoDB & EAV + CREMA-D + EMOVO + PME4 + RAVDESS & 9650 & 1802 & 339 & 10 & 14 & 0.81 & 0.96 & 0.96 & 0.95 & 0.96 & 0.95 & 0.94 & 0.98 & cross_corpus_5_to_1 & architecture_a & EmoDB \\
+EMOVO & EAV + CREMA-D + EmoDB + PME4 + RAVDESS & 9643 & 1812 & 336 & 6 & 7 & 0.88 & 0.57 & 0.57 & 0.56 & 0.57 & 0.52 & 0.51 & 0.65 & cross_corpus_5_to_1 & architecture_a & EMOVO \\
+PME4 & EAV + CREMA-D + EmoDB + EMOVO + RAVDESS & 8134 & 1468 & 2189 & 11 & 10 & 0.91 & 0.58 & 0.58 & 0.58 & 0.58 & 0.54 & 0.47 & 0.69 & cross_corpus_5_to_1 & architecture_a & PME4 \\
+RAVDESS & EAV + CREMA-D + EmoDB + EMOVO + PME4 & 9365 & 1756 & 670 & 24 & 7 & 0.80 & 0.63 & 0.63 & 0.62 & 0.66 & 0.59 & 0.58 & 0.69 & cross_corpus_5_to_1 & architecture_a & RAVDESS \\
+\bottomrule
+\end{tabular}

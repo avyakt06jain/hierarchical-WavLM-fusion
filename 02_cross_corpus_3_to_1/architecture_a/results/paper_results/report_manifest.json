@@ -1,0 +1,13 @@
+{
+  "finished_test_corpora": [
+    "RAVDESS",
+    "CREMA-D",
+    "EMODB",
+    "EMOVO"
+  ],
+  "n_complete": 4,
+  "required_complete": 4,
+  "all_complete": true,
+  "generated_at_utc": "2026-11-10T20:48:47.789356+00:00",
+  "scores_are_real_experiment_outputs": true
+}

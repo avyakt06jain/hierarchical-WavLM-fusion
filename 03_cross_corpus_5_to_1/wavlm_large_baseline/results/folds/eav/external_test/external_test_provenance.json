@@ -1,0 +1,58 @@
+{
+  "target": "EAV",
+  "n_target_recordings": 3360,
+  "n_target_speakers": 42,
+  "model": "microsoft/wavlm-large",
+  "checkpoint": "/workspace/avyakt-sc-final/final-speech-rp/folds/eav/best.pth",
+  "no_target_training_or_selection": true,
+  "checkpoint_chosen_by": "five SOURCE corpus validation",
+  "measured_once": true,
+  "metrics": {
+    "n_recordings": 3360,
+    "n_subjects": 42,
+    "pooled_accuracy": 0.4973214285714286,
+    "macro_f1": 0.4383800664484212,
+    "uar": 0.4973214285714286,
+    "mean_subject_accuracy": 0.49732142857142864,
+    "mean_subject_macro_f1": 0.41094742047006605,
+    "std_subject_accuracy": 0.10503831016723116,
+    "confusion_matrix": [
+      [
+        399,
+        420,
+        0,
+        21
+      ],
+      [
+        10,
+        757,
+        0,
+        73
+      ],
+      [
+        104,
+        136,
+        44,
+        556
+      ],
+      [
+        106,
+        263,
+        0,
+        471
+      ]
+    ],
+    "mean_subject_accuracy_95ci_bootstrap": [
+      0.46517113095238094,
+      0.5291666666666666
+    ],
+    "report_name": "EAV: external zero-shot test",
+    "class_order": [
+      "Neutral",
+      "Sad",
+      "Angry",
+      "Happy"
+    ],
+    "head": "LayerNorm + dropout + Linear(1024,4)"
+  }
+}

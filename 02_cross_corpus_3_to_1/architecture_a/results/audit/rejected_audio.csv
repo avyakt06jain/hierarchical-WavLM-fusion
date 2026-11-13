@@ -1,0 +1,3 @@
+corpus,path,recording_id,reason
+crema-d,/workspace/data/crema-d/AudioWAV/1040_ITH_SAD_X.wav,crema-d:1040_ITH_SAD_X,ValueError: Unrecognized CREMA-D filename: 1040_ITH_SAD_X.wav
+crema-d,/workspace/data/crema-d/AudioWAV/1076_MTI_SAD_XX.wav,crema-d:1076_MTI_SAD_XX,ValueError: Empty or near-silent audio

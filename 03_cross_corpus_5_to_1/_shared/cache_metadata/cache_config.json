@@ -1,0 +1,6 @@
+{
+  "fs": 16000,
+  "trim_pme4": true,
+  "trim_context_sec": 0.15,
+  "preprocessing_version": "mono_resample_poly_normalize_per_window_v1"
+}

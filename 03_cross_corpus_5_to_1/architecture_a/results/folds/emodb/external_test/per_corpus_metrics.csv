@@ -1,0 +1,2 @@
+dataset,n_recordings,n_subjects,pooled_accuracy,macro_f1,mean_subject_accuracy,uar
+EmoDB,339,10,0.9587020648967551,0.9543625110846371,0.960227172795322,0.9565074678821135

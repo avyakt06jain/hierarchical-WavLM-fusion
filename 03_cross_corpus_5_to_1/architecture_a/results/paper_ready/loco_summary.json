@@ -1,0 +1,24 @@
+{
+  "n_completed": 6,
+  "n_expected": 6,
+  "primary_metric": "unweighted mean test macro-F1 across six corpora",
+  "mean_test_macro_f1": 0.622078422769604,
+  "mean_test_uar": 0.640897306672164,
+  "mean_test_subject_accuracy": 0.6372575014401652,
+  "test_samples_total": 11791,
+  "descriptive_cross_corpus_uncertainty": {
+    "test_macro_f1_corpus_bootstrap_95ci": [
+      0.5039683040378108,
+      0.7718492660851797
+    ],
+    "test_uar_corpus_bootstrap_95ci": [
+      0.5387303605757564,
+      0.7799615057483075
+    ],
+    "test_mean_subject_accuracy_corpus_bootstrap_95ci": [
+      0.5364458297838021,
+      0.7772440786577749
+    ]
+  },
+  "caution": "Each of six target corpora is fully unseen in its own fold; speakers within source corpora are disjoint between source train and validation."
+}

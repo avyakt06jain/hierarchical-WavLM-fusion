@@ -1,0 +1,2 @@
+dataset,n_recordings,n_subjects,pooled_accuracy,macro_f1,mean_subject_accuracy,uar
+CREMA-D,4897,91,0.5917908923830917,0.5542153811535112,0.5918896101479556,0.5790164425026331

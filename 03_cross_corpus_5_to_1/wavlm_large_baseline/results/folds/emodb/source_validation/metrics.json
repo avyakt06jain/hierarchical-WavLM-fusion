@@ -1,0 +1,48 @@
+{
+  "n_recordings": 1802,
+  "n_subjects": 27,
+  "pooled_accuracy": 0.732519422863485,
+  "macro_f1": 0.731667010829933,
+  "uar": 0.7316847510807309,
+  "mean_subject_accuracy": 0.7604077541114579,
+  "mean_subject_macro_f1": 0.7439726261959356,
+  "std_subject_accuracy": 0.13138289730803818,
+  "confusion_matrix": [
+    [
+      291,
+      100,
+      8,
+      18
+    ],
+    [
+      51,
+      346,
+      23,
+      41
+    ],
+    [
+      22,
+      11,
+      374,
+      55
+    ],
+    [
+      30,
+      51,
+      72,
+      309
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.7099525071978776,
+    0.808237274642367
+  ],
+  "report_name": "EmoDB: five-source validation",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "LayerNorm + dropout + Linear(1024,4)"
+}

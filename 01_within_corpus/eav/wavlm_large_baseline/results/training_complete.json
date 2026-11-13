@@ -1,0 +1,30 @@
+{
+  "best_epoch": 15,
+  "best_val_metrics": {
+    "n_recordings": 630,
+    "n_speakers": 42,
+    "accuracy": 0.953968253968254,
+    "mean_subject_accuracy": 0.953968253968254,
+    "uar": 0.9539682539682539,
+    "macro_f1": 0.953726638599699,
+    "weighted_f1": 0.9537266385996992,
+    "cross_entropy": 0.44731370621372474,
+    "auroc_macro_ovr": 0.9965450995212901,
+    "mean_subject_accuracy_95ci": [
+      0.9396825396825396,
+      0.9666666666666669
+    ],
+    "dataset": "eav",
+    "split": "val",
+    "best_epoch": 15,
+    "unit": "original recording",
+    "speaker_overlap": true,
+    "original_recording_disjoint": true
+  },
+  "split_sha": "51160a8c71833429d01cc790e5a09a289b3642b5502e6b24165f0db9edd0a124",
+  "config_sha": "8822b0a8877f6b13a6bc839efce90d204f0bf737f78f7c659247a1c35b3e51b1",
+  "best_checkpoint_sha": "cf768d15c6753fd588cf0f903f3b4974ce9a3856bf2210ce2716908b6d2ee095",
+  "test_locked": true,
+  "best_epoch_selection": "validation mean subject accuracy, UAR as tie breaker",
+  "speaker_independent": false
+}

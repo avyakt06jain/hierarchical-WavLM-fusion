@@ -1,0 +1,10 @@
+{
+  "executed_at_utc": "2026-11-10T20:47:24.815398+00:00",
+  "held_out_corpus": "emodb",
+  "checkpoint_sha256": "91cc62bac1488e5affed1276f31e4652e464d48049ee2697b697d36b05001e24",
+  "test_evaluated_once": true,
+  "test_recordings": 454,
+  "accuracy": 0.6938325991189427,
+  "uar": 0.7041694546331242,
+  "macro_f1": 0.6797845996774461
+}

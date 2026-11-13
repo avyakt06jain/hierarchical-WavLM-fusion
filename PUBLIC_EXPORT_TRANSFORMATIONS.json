@@ -1,0 +1,260 @@
+[
+  {
+    "file": "01_within_corpus/eav/wavlm_large_baseline/results/audit/duplicate_hash_groups.csv",
+    "removed_columns": [
+      "audio_path"
+    ]
+  },
+  {
+    "file": "01_within_corpus/eav/wavlm_large_baseline/results/audit/immutable_manifest.csv",
+    "removed_columns": [
+      "audio_path"
+    ]
+  },
+  {
+    "file": "01_within_corpus/pme4/wavlm_large_baseline/results/audit/duplicate_hash_groups.csv",
+    "removed_columns": [
+      "audio_path"
+    ]
+  },
+  {
+    "file": "01_within_corpus/pme4/wavlm_large_baseline/results/audit/immutable_manifest.csv",
+    "removed_columns": [
+      "audio_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/_shared/audit/eligible_recordings.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/_shared/audit/excluded_or_duplicate_files.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/_shared/audit/preprocessing_errors.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/crema_d/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/crema_d/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/crema_d/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/eav/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/eav/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/eav/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/emodb/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/emodb/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/emodb/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/emovo/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/emovo/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/emovo/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/pme4/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/pme4/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/pme4/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/ravdess/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/ravdess/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/architecture_a/results/folds/ravdess/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/crema_d/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/crema_d/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/crema_d/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/eav/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/eav/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/eav/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/emodb/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/emodb/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/emodb/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/emovo/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/emovo/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/emovo/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/pme4/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/pme4/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/pme4/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/ravdess/external_test/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/ravdess/immutable_split_manifest.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  },
+  {
+    "file": "03_cross_corpus_5_to_1/wavlm_large_baseline/results/folds/ravdess/source_validation/recording_predictions.csv",
+    "removed_columns": [
+      "file_path"
+    ]
+  }
+]

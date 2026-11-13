@@ -1,0 +1,23 @@
+{
+  "completed_at_utc": "2026-11-10T16:05:31.078275+00:00",
+  "experiment": "ravdess",
+  "best_epoch": 4,
+  "best_source_validation": {
+    "val_macro_corpus_uar": 0.6756465080301955,
+    "val_macro_corpus_f1": 0.6612919648069419,
+    "val_macro_corpus_acc": 0.6742915951787468,
+    "val_loss": 0.95166487308376,
+    "val_uar_crema-d": 0.6269725928736553,
+    "val_f1_crema-d": 0.6216389660005448,
+    "val_acc_crema-d": 0.6240652617267165,
+    "val_uar_emodb": 0.947585978835979,
+    "val_f1_emodb": 0.9468369863022458,
+    "val_acc_emodb": 0.9464285714285714,
+    "val_uar_emovo": 0.45238095238095233,
+    "val_f1_emovo": 0.4153999421180347,
+    "val_acc_emovo": 0.4523809523809524
+  },
+  "best_checkpoint_sha256": "98c3b071013e82bebf1d9ecf30afcaf26df692cea976c37e3aae2d8c92d14165",
+  "split_fingerprint": "a8a8fe5a41477f47136bd568956176f4427c2026b085a408c8f49f09796187a6",
+  "note": "Target test corpus was not evaluated during model selection"
+}

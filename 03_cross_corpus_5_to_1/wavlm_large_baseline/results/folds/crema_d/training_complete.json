@@ -1,0 +1,67 @@
+{
+  "target": "CREMA-D",
+  "best_epoch": 2,
+  "best_source_val_mean_corpus_macro_f1": 0.7858843396430075,
+  "epochs_run": 11,
+  "source_validation_metrics": {
+    "n_recordings": 1114,
+    "n_subjects": 15,
+    "pooled_accuracy": 0.7603231597845601,
+    "macro_f1": 0.7535042735042734,
+    "uar": 0.7595903457341755,
+    "mean_subject_accuracy": 0.8124867724867725,
+    "mean_subject_macro_f1": 0.7994372977383954,
+    "std_subject_accuracy": 0.11002737769536093,
+    "confusion_matrix": [
+      [
+        213,
+        55,
+        0,
+        0
+      ],
+      [
+        13,
+        228,
+        19,
+        15
+      ],
+      [
+        4,
+        12,
+        263,
+        12
+      ],
+      [
+        22,
+        38,
+        77,
+        143
+      ]
+    ],
+    "mean_subject_accuracy_95ci_bootstrap": [
+      0.7550817460317459,
+      0.863559656084656
+    ],
+    "report_name": "CREMA-D: five-source validation",
+    "class_order": [
+      "Neutral",
+      "Sad",
+      "Angry",
+      "Happy"
+    ],
+    "head": "LayerNorm + dropout + Linear(1024,4)"
+  },
+  "source_val_unweighted_corpus_macro_f1": 0.7858843396430075,
+  "train_samples": 5780,
+  "val_samples": 1114,
+  "sealed_target_test_samples": 4897,
+  "train_corpora": [
+    "EAV",
+    "EmoDB",
+    "EMOVO",
+    "PME4",
+    "RAVDESS"
+  ],
+  "target_corpus_not_used_in_training_or_validation": true,
+  "audit_sha256": "ec75e98020d2a0e17c93ca2a96155f0742b071c397929268c31ee1743a7a8788"
+}

@@ -1,0 +1,91 @@
+{
+  "protocol": "WITHIN_CORPUS_EACH_SPEAKER_70_15_15_SIX_CLASS_V2",
+  "audit_policy": "FULL_SCAN_QUARANTINE_AMBIGUOUS_GROUPS_V2",
+  "complete_scan": true,
+  "audit_viable": true,
+  "six_emotions": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy",
+    "Fear",
+    "Disgust"
+  ],
+  "hash_checked": true,
+  "data_root": "/workspace/data",
+  "by_corpus": {
+    "ravdess": {
+      "scanned_files": 2880,
+      "excluded_unshared_labels": 768,
+      "rejected_audio": 0,
+      "eligible_before_duplicates": 2112,
+      "quarantined_ambiguous": 0,
+      "redundant_duplicates_removed": 1057,
+      "retained_recordings": 1055,
+      "remaining_speakers": 24
+    },
+    "crema-d": {
+      "scanned_files": 7442,
+      "excluded_unshared_labels": 0,
+      "rejected_audio": 2,
+      "eligible_before_duplicates": 7440,
+      "quarantined_ambiguous": 6,
+      "redundant_duplicates_removed": 0,
+      "retained_recordings": 7434,
+      "remaining_speakers": 91
+    },
+    "emodb": {
+      "scanned_files": 535,
+      "excluded_unshared_labels": 81,
+      "rejected_audio": 0,
+      "eligible_before_duplicates": 454,
+      "quarantined_ambiguous": 0,
+      "redundant_duplicates_removed": 0,
+      "retained_recordings": 454,
+      "remaining_speakers": 10
+    },
+    "emovo": {
+      "scanned_files": 588,
+      "excluded_unshared_labels": 84,
+      "rejected_audio": 0,
+      "eligible_before_duplicates": 504,
+      "quarantined_ambiguous": 0,
+      "redundant_duplicates_removed": 0,
+      "retained_recordings": 504,
+      "remaining_speakers": 6
+    }
+  },
+  "bad_wav_files": 2,
+  "n_duplicate_groups": 1058,
+  "n_ambiguous_groups": 3,
+  "ambiguous_audio_files_quarantined": 6,
+  "benign_redundant_wavs_removed": 1057,
+  "byte_identical_wavs_excluded": 1063,
+  "duplicate_policy": "Retain one if same corpus/speaker/emotion and consistent recording ID; quarantine ALL members of every contradictory/cross-speaker/cross-corpus group; group by recording identity, WAV hash, or decoded mono PCM hash.",
+  "raw_data_unchanged": true,
+  "test_recordings_never_used_for_checkpoint_selection": true,
+  "manifest_fingerprint": "58bcd5d73babcf4e7dfd11d0e1ad48412361b92577d7938a7027f03f396f3fc0",
+  "scan_errors": [],
+  "warnings": [
+    "ravdess: 50.0% of eligible files excluded by duplicates/quarantine. Check quality and report exclusion bias."
+  ],
+  "viability_errors": [],
+  "counts": {
+    "ravdess": {
+      "recordings": 1055,
+      "speakers": 24
+    },
+    "crema-d": {
+      "recordings": 7434,
+      "speakers": 91
+    },
+    "emodb": {
+      "recordings": 454,
+      "speakers": 10
+    },
+    "emovo": {
+      "recordings": 504,
+      "speakers": 6
+    }
+  }
+}

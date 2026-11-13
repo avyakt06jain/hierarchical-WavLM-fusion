@@ -1,0 +1,16 @@
+{
+  "recordings": 4200,
+  "duration_seconds": {
+    "count": 4200.0,
+    "mean": 21.0,
+    "std": 0.0,
+    "min": 21.0,
+    "25%": 21.0,
+    "50%": 21.0,
+    "75%": 21.0,
+    "max": 21.0
+  },
+  "quiet_windows_total": 15,
+  "recordings_with_quiet_windows": 15,
+  "note": "RMS threshold is a QC diagnostic only, not automatic VAD or exclusion."
+}

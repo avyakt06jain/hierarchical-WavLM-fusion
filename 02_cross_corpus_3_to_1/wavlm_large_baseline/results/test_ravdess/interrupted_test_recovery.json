@@ -1,0 +1,11 @@
+[
+  {
+    "recovered_at_utc": "2026-11-10T20:36:54.751934+00:00",
+    "heldout_corpus": "ravdess",
+    "checkpoint_sha256": "98c3b071013e82bebf1d9ecf30afcaf26df692cea976c37e3aae2d8c92d14165",
+    "archived_interrupted_lock": "final_test_interrupted_attempt_001.lock",
+    "original_lock_content": "2026-11-10T19:27:32.573095+00:00\n",
+    "reason": "Explicit user-initiated recovery after evaluation crash with NO persisted test artifacts",
+    "warning": "Recover only infrastructure failure; do not use target data to tune the model."
+  }
+]

@@ -1,0 +1,2 @@
+dataset,n_recordings,n_subjects,pooled_accuracy,macro_f1,mean_subject_accuracy,uar
+PME4,2189,11,0.5833714024668799,0.5826973362610207,0.582033799033694,0.5832799229820473

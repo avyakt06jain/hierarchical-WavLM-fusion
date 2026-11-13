@@ -1,0 +1,28 @@
+{
+  "n_recordings": 72,
+  "n_speakers": 6,
+  "accuracy": 0.875,
+  "uar": 0.875,
+  "macro_f1": 0.8813379234136597,
+  "weighted_f1": 0.8813379234136597,
+  "cross_entropy": 0.35530793225772184,
+  "auroc_macro_ovr": 0.9946759259259258,
+  "ece_15_bins": 0.10216130100102212,
+  "mean_speaker_accuracy": 0.875,
+  "mean_speaker_uar": 0.875,
+  "bootstrap_unit": "speaker (cluster bootstrap)",
+  "accuracy_95ci_speaker_bootstrap": [
+    0.7777777777777778,
+    0.9444444444444444
+  ],
+  "uar_95ci_speaker_bootstrap": [
+    0.7777777777777778,
+    0.9444444444444445
+  ],
+  "dataset": "emovo",
+  "best_epoch": 25,
+  "validation_uar": 0.9107142857142857,
+  "checkpoint_sha256": "120e208e7c5344239af51cf3776fd5879026b5e36564b5c68e75f65b2bd58adc",
+  "split_fingerprint": "4ddfef7134a50ccd659d36184945d6018ba82a7edb237552c063d85442ae8903",
+  "test_protocol": "within-corpus per-speaker 70/15/15, original recordings disjoint, speakers overlap, test once"
+}

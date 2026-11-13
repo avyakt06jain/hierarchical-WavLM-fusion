@@ -1,0 +1,21 @@
+{
+  "n_recordings": 630,
+  "n_speakers": 42,
+  "accuracy": 0.953968253968254,
+  "mean_subject_accuracy": 0.953968253968254,
+  "uar": 0.9539682539682539,
+  "macro_f1": 0.9537062791369907,
+  "weighted_f1": 0.9537062791369908,
+  "cross_entropy": 0.42375442853723355,
+  "auroc_macro_ovr": 0.9967718568909044,
+  "mean_subject_accuracy_95ci": [
+    0.9349206349206349,
+    0.9714285714285715
+  ],
+  "dataset": "eav",
+  "split": "test",
+  "best_epoch": 15,
+  "unit": "original recording",
+  "speaker_overlap": true,
+  "original_recording_disjoint": true
+}

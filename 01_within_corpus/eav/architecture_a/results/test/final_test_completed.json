@@ -1,0 +1,35 @@
+{
+  "test_evaluated_once": true,
+  "evaluation_timing": "early_stopped_checkpoint",
+  "timestamp_utc": "2026-11-10T17:43:09.392358+00:00",
+  "manifest_sha": "8615e09d80581310d8a6375359d4094fa4b259b7a61bc9860ab1aaa4d41243c0",
+  "selected_epoch": 6,
+  "metrics": {
+    "split": "test",
+    "protocol": "EAV_42_SUBJECT_OVERLAPPING_ORIGINAL_SPEAKING_RECORDING_DISJOINT_STRATIFIED_70_15_15_SEED42",
+    "n_subjects": 42,
+    "n_original_recordings": 630,
+    "mean_subject_accuracy": 1.0,
+    "subject_accuracy_std": 0.0,
+    "subject_bootstrap_95ci": [
+      1.0,
+      1.0
+    ],
+    "pooled_recording_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "uar": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "mean_subject_macro_f1": 1.0,
+    "cohen_kappa": 1.0,
+    "mcc": 1.0,
+    "log_loss": 0.036084780474562164,
+    "multiclass_brier": 0.004208891243806232,
+    "chance_accuracy": 0.2,
+    "best_epoch": 6,
+    "auroc_macro_ovr": 1.0
+  },
+  "protocol": "EAV_42_SUBJECT_OVERLAPPING_ORIGINAL_SPEAKING_RECORDING_DISJOINT_STRATIFIED_70_15_15_SEED42",
+  "checkpoint_sha": "e239709e70081edf5d3959ef0f9ca5eef159bd7d00618a6c9fbf8a9ad51dae2a"
+}

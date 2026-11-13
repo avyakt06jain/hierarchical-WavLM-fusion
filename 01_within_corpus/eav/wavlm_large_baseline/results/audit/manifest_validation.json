@@ -1,0 +1,27 @@
+{
+  "valid": true,
+  "problems": [],
+  "recordings": 4200,
+  "speakers": 42,
+  "split_counts": {
+    "train": 2940,
+    "val": 630,
+    "test": 630
+  },
+  "split_speaker_counts": {
+    "train": 42,
+    "val": 42,
+    "test": 42
+  },
+  "labels": [
+    "Neutral",
+    "Sadness",
+    "Anger",
+    "Happiness",
+    "Calmness"
+  ],
+  "subject_overlap_by_design": true,
+  "original_recording_disjoint": true,
+  "byte_hash_duplicates": 0,
+  "benign_same_subject_emotion_split_duplicate_groups": []
+}

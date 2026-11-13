@@ -1,0 +1,1 @@
+recording_id,subject_id,trial_id,conversation_trial,emotion_id,emotion,eeg_label_code,split,audio_bytes,audio_mtime_ns,orig_sr,orig_frames,duration_seconds,sha256

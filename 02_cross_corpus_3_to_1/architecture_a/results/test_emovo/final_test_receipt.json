@@ -1,0 +1,10 @@
+{
+  "executed_at_utc": "2026-11-10T20:48:43.967854+00:00",
+  "held_out_corpus": "emovo",
+  "checkpoint_sha256": "78af735427d6fbd90a2635436843cc8c0ce433b64b22d3c1bafec5ffe945a044",
+  "test_evaluated_once": true,
+  "test_recordings": 504,
+  "accuracy": 0.6130952380952381,
+  "uar": 0.6130952380952381,
+  "macro_f1": 0.5985385829214916
+}

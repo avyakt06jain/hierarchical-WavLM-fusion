@@ -1,0 +1,6 @@
+,Neutral,Sadness,Anger,Happiness,Calmness
+Neutral,126,0,0,0,0
+Sadness,0,117,1,1,7
+Anger,0,1,123,2,0
+Happiness,0,0,2,122,2
+Calmness,4,2,1,6,113

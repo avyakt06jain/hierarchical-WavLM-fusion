@@ -1,0 +1,48 @@
+{
+  "n_recordings": 2189,
+  "n_subjects": 11,
+  "pooled_accuracy": 0.594792142530836,
+  "macro_f1": 0.5936374636840774,
+  "uar": 0.5946784734123436,
+  "mean_subject_accuracy": 0.5942216978746877,
+  "mean_subject_macro_f1": 0.5421455478891773,
+  "std_subject_accuracy": 0.1362904056843036,
+  "confusion_matrix": [
+    [
+      363,
+      161,
+      1,
+      23
+    ],
+    [
+      109,
+      423,
+      7,
+      8
+    ],
+    [
+      36,
+      183,
+      308,
+      21
+    ],
+    [
+      83,
+      176,
+      79,
+      208
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.5171442632344055,
+    0.6733478085615241
+  ],
+  "report_name": "PME4: external zero-shot test",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "LayerNorm + dropout + Linear(1024,4)"
+}

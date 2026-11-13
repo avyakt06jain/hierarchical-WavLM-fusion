@@ -1,0 +1,7 @@
+{
+  "source_best_checkpoint_sha256": "b7b8d1f2ae65c46c701c698939df7cd11fd6a6c8ca44264a9f761d692dae5c4f",
+  "split_sha256": "0b13ea75b8460e81b903e9810adda2eb4bc874595a82cf0d82cdc3f8e930f715",
+  "n_recordings": 1532,
+  "embedding_dim": 512,
+  "caveat": "IN SAMPLE supervised base-model train predictions; NOT out-of-fold. No held-out speech training predictions."
+}

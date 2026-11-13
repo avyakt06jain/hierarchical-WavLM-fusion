@@ -1,0 +1,350 @@
+{
+  "protocol": "PME4_SPEECH4_ALL11_SUBJECT_CLASS_STRATIFIED_70_15_15_V2",
+  "split_sha256": "0b13ea75b8460e81b903e9810adda2eb4bc874595a82cf0d82cdc3f8e930f715",
+  "recording_split_definition_sha256": "968a3a088387d3eec9b1c99b368af5a722ee2ca2b28a33ae298943bb03187a6c",
+  "metadata_csv_sha256": "6039992b452dcd391059d482336dd917543df541d5bbc9a95c16f7c82d7fb402",
+  "counts": {
+    "train": 1532,
+    "val": 329,
+    "test": 328
+  },
+  "class_counts": {
+    "train": {
+      "Neutral": 384,
+      "Sad": 383,
+      "Angry": 383,
+      "Happy": 382
+    },
+    "val": {
+      "Neutral": 84,
+      "Sad": 85,
+      "Angry": 80,
+      "Happy": 80
+    },
+    "test": {
+      "Neutral": 80,
+      "Sad": 79,
+      "Angry": 85,
+      "Happy": 84
+    }
+  },
+  "n_subjects_per_split": {
+    "train": 11,
+    "val": 11,
+    "test": 11
+  },
+  "n_recordings_per_split": {
+    "train": 1532,
+    "val": 329,
+    "test": 328
+  },
+  "per_subject_class_quotas": {
+    "s01": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      }
+    },
+    "s02": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Angry": {
+        "total": 49,
+        "train": 34,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      }
+    },
+    "s03": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s04": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s05": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s06": {
+      "Neutral": {
+        "total": 51,
+        "train": 36,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 51,
+        "train": 36,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 52,
+        "train": 36,
+        "val": 8,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s07": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s08": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s09": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      }
+    },
+    "s10": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s11": {
+      "Neutral": {
+        "total": 47,
+        "train": 33,
+        "val": 7,
+        "test": 7
+      },
+      "Sad": {
+        "total": 46,
+        "train": 32,
+        "val": 7,
+        "test": 7
+      },
+      "Angry": {
+        "total": 47,
+        "train": 33,
+        "val": 7,
+        "test": 7
+      },
+      "Happy": {
+        "total": 46,
+        "train": 32,
+        "val": 7,
+        "test": 7
+      }
+    }
+  },
+  "actual_recording_fractions": {
+    "train": 0.6998629511192326,
+    "val": 0.15029693924166285,
+    "test": 0.1498401096391046
+  },
+  "excluded_emotions": {
+    "fear": 547,
+    "surprise": 548,
+    "disgust": 545
+  },
+  "target_classes": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "hash_audited": true,
+  "speaker_overlap": true,
+  "global_trial_id_disjoint": false,
+  "original_recording_disjoint": true,
+  "caveat": "Not a subject-independent benchmark. All 11 speakers occur in all partitions; original recordings disjoint; trial-index and subject overlap are intentional."
+}

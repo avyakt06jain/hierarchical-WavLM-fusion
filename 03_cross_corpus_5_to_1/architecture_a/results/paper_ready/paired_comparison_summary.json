@@ -1,0 +1,8 @@
+{
+  "n_matched_folds": 6,
+  "dataset_validation": "Identical per-fold test and source train/val sample counts",
+  "architecture_a_minus_plain_macro_f1_mean": 0.057337595537047564,
+  "architecture_a_minus_plain_msa_mean": 0.04261045269048608,
+  "architecture_a_minus_plain_uar_mean": 0.04151847209365995,
+  "interpretation": "Descriptive paired results; six heterogeneous corpora, not six independent speakers"
+}

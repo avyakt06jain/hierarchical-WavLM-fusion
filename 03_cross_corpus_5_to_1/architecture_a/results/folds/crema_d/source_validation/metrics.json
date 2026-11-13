@@ -1,0 +1,48 @@
+{
+  "n_recordings": 1114,
+  "n_subjects": 15,
+  "pooled_accuracy": 0.8402154398563735,
+  "macro_f1": 0.8357720274867063,
+  "uar": 0.8369513175187124,
+  "mean_subject_accuracy": 0.9094735449735449,
+  "mean_subject_macro_f1": 0.8977859339204322,
+  "std_subject_accuracy": 0.12059318471354227,
+  "confusion_matrix": [
+    [
+      166,
+      83,
+      16,
+      3
+    ],
+    [
+      3,
+      262,
+      9,
+      1
+    ],
+    [
+      0,
+      1,
+      286,
+      4
+    ],
+    [
+      1,
+      31,
+      26,
+      222
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.8417463624338625,
+    0.9610250000000001
+  ],
+  "report_name": "CREMA-D: five-source validation",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "GHF 4x6 + DPTP attention/stats + Linear(512,256) + GELU + Dropout + Linear(256,4)"
+}

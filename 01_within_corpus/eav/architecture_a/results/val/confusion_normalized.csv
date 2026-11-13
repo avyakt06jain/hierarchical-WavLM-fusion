@@ -1,0 +1,6 @@
+,Neutral,Sadness,Anger,Happiness,Calmness
+Neutral,1.0,0.0,0.0,0.0,0.0
+Sadness,0.0,1.0,0.0,0.0,0.0
+Anger,0.0,0.0,1.0,0.0,0.0
+Happiness,0.0,0.0,0.0,1.0,0.0
+Calmness,0.0,0.0,0.0,0.0,1.0

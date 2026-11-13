@@ -1,0 +1,48 @@
+{
+  "n_recordings": 3360,
+  "n_subjects": 42,
+  "pooled_accuracy": 0.46339285714285716,
+  "macro_f1": 0.40522210725488217,
+  "uar": 0.46339285714285716,
+  "mean_subject_accuracy": 0.4633928571428571,
+  "mean_subject_macro_f1": 0.37719261776423824,
+  "std_subject_accuracy": 0.11099579950930936,
+  "confusion_matrix": [
+    [
+      434,
+      392,
+      0,
+      14
+    ],
+    [
+      19,
+      815,
+      0,
+      6
+    ],
+    [
+      269,
+      277,
+      95,
+      199
+    ],
+    [
+      244,
+      381,
+      2,
+      213
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.43212797619047616,
+    0.4982217261904761
+  ],
+  "report_name": "EAV: external zero-shot test",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "GHF 4x6 + DPTP attention/stats + Linear(512,256) + GELU + Dropout + Linear(256,4)"
+}

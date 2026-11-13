@@ -1,0 +1,7 @@
+,Neutral,Sad,Angry,Happy,Fear,Disgust
+Neutral,204,13,8,20,2,5
+Sad,25,207,0,7,25,41
+Angry,7,1,284,6,7,14
+Happy,12,4,27,225,30,11
+Fear,4,45,2,15,225,19
+Disgust,5,27,12,3,11,249

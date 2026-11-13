@@ -1,0 +1,2 @@
+dataset,n_recordings,n_subjects,pooled_accuracy,macro_f1,mean_subject_accuracy,uar
+EAV,3360,42,0.4973214285714286,0.4383800664484212,0.49732142857142864,0.4973214285714286

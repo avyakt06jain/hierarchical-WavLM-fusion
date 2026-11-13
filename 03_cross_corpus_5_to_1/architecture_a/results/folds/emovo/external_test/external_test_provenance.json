@@ -1,0 +1,58 @@
+{
+  "target": "EMOVO",
+  "n_target_recordings": 336,
+  "n_target_speakers": 6,
+  "model": "microsoft/wavlm-large",
+  "checkpoint": "/workspace/avyakt-sc-final/final-speech-rp/architecture_a/folds/emovo/best.pth",
+  "no_target_training_or_selection": true,
+  "checkpoint_chosen_by": "five SOURCE corpus validation",
+  "measured_once": true,
+  "metrics": {
+    "n_recordings": 336,
+    "n_subjects": 6,
+    "pooled_accuracy": 0.5714285714285714,
+    "macro_f1": 0.5624779515300744,
+    "uar": 0.5714285714285714,
+    "mean_subject_accuracy": 0.5714285714285714,
+    "mean_subject_macro_f1": 0.5228118700029175,
+    "std_subject_accuracy": 0.09449111825230677,
+    "confusion_matrix": [
+      [
+        35,
+        1,
+        44,
+        4
+      ],
+      [
+        35,
+        43,
+        5,
+        1
+      ],
+      [
+        0,
+        0,
+        84,
+        0
+      ],
+      [
+        1,
+        0,
+        53,
+        30
+      ]
+    ],
+    "mean_subject_accuracy_95ci_bootstrap": [
+      0.5089285714285715,
+      0.6458333333333334
+    ],
+    "report_name": "EMOVO: external zero-shot test",
+    "class_order": [
+      "Neutral",
+      "Sad",
+      "Angry",
+      "Happy"
+    ],
+    "head": "GHF 4x6 + DPTP attention/stats + Linear(512,256) + GELU + Dropout + Linear(256,4)"
+  }
+}

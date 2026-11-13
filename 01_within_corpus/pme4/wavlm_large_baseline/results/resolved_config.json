@@ -1,0 +1,43 @@
+{
+  "dataset": "pme4",
+  "protocol": "PME4_ALL11_SUBJECT_CLASS_STRATIFIED_70_15_15_ORIGINAL_RECORDING_SEED42",
+  "model": "WavLM-Large final-layer masked mean + LayerNorm + Dropout(0.30) + Linear(num_classes)",
+  "no_ghf": true,
+  "no_dptp": true,
+  "no_supcon": true,
+  "splits": {
+    "train": 1532,
+    "val": 329,
+    "test": 328
+  },
+  "split_sha": "bdd10271ab37c8c4f52023b4396605670e103b9c07b666a2f344c2c8c8aa8b56",
+  "settings_sha": "b78fa28be93d526b14336ebb1ca617931581820d0b86f8bb68edc25d1f39231a",
+  "settings": {
+    "data_root": "/workspace/data/pme4/pme4-dataset",
+    "classes": [
+      "Neutral",
+      "Sad",
+      "Angry",
+      "Happy"
+    ],
+    "seed": 42,
+    "window_seconds": 4.0,
+    "noise_probability": 0.2,
+    "effective_batch": 16,
+    "updates_per_epoch": 96,
+    "frozen_batch": 8,
+    "finetune_batch": 4,
+    "eval_batch": 8,
+    "frozen_epochs": 4,
+    "max_epochs": 28,
+    "patience": 7,
+    "min_delta": 0.002,
+    "head_lr": 0.0003,
+    "finetune_head_lr": 0.0001,
+    "wavlm_lr": 5e-06,
+    "label_smoothing": 0.05,
+    "checkpoint_revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+    "gradient_checkpointing": true
+  },
+  "caveat": "All subjects overlap by design. Recording-level 70/15/15, not speaker-independent."
+}

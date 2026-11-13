@@ -1,0 +1,2 @@
+dataset,n_recordings,n_subjects,pooled_accuracy,macro_f1,mean_subject_accuracy,uar
+RAVDESS,670,24,0.6283582089552239,0.6228327754660719,0.6277472527472527,0.6572916666666666

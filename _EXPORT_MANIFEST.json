@@ -1,0 +1,14 @@
+{
+  "mode": "github",
+  "source_root": "/mnt/data/_ser_github_source/final-speech-paper",
+  "source_files_exported": 2065,
+  "skipped_files_by_extension": {
+    ".log": 30,
+    ".json": 6,
+    ".csv": 11,
+    ".txt": 1
+  },
+  "redacted_csv_count": 43,
+  "source_size_gib": 0.235,
+  "notes": "Files were copied, not moved. Public CSV path-column removal is explicitly documented."
+}

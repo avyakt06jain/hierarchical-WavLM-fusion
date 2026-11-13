@@ -1,0 +1,48 @@
+{
+  "n_recordings": 1468,
+  "n_subjects": 27,
+  "pooled_accuracy": 0.8801089918256131,
+  "macro_f1": 0.8791495228558578,
+  "uar": 0.8817684073458792,
+  "mean_subject_accuracy": 0.8747763382022641,
+  "mean_subject_macro_f1": 0.8678820037223074,
+  "std_subject_accuracy": 0.10696946216847258,
+  "confusion_matrix": [
+    [
+      323,
+      8,
+      3,
+      1
+    ],
+    [
+      49,
+      308,
+      12,
+      1
+    ],
+    [
+      10,
+      6,
+      364,
+      7
+    ],
+    [
+      32,
+      21,
+      26,
+      297
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.8378511838812767,
+    0.9124334950029395
+  ],
+  "report_name": "PME4: five-source validation",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "GHF 4x6 + DPTP attention/stats + Linear(512,256) + GELU + Dropout + Linear(256,4)"
+}

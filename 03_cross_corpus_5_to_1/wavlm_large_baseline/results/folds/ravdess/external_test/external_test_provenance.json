@@ -1,0 +1,58 @@
+{
+  "target": "RAVDESS",
+  "n_target_recordings": 670,
+  "n_target_speakers": 24,
+  "model": "microsoft/wavlm-large",
+  "checkpoint": "/workspace/avyakt-sc-final/final-speech-rp/folds/ravdess/best.pth",
+  "no_target_training_or_selection": true,
+  "checkpoint_chosen_by": "five SOURCE corpus validation",
+  "measured_once": true,
+  "metrics": {
+    "n_recordings": 670,
+    "n_subjects": 24,
+    "pooled_accuracy": 0.5388059701492537,
+    "macro_f1": 0.49636022535769175,
+    "uar": 0.5802083333333333,
+    "mean_subject_accuracy": 0.5381181318681318,
+    "mean_subject_macro_f1": 0.47943957969385087,
+    "std_subject_accuracy": 0.12114842221933507,
+    "confusion_matrix": [
+      [
+        84,
+        0,
+        11,
+        1
+      ],
+      [
+        52,
+        30,
+        47,
+        63
+      ],
+      [
+        1,
+        1,
+        190,
+        0
+      ],
+      [
+        21,
+        0,
+        112,
+        57
+      ]
+    ],
+    "mean_subject_accuracy_95ci_bootstrap": [
+      0.4895833333333333,
+      0.5848214285714285
+    ],
+    "report_name": "RAVDESS: external zero-shot test",
+    "class_order": [
+      "Neutral",
+      "Sad",
+      "Angry",
+      "Happy"
+    ],
+    "head": "LayerNorm + dropout + Linear(1024,4)"
+  }
+}

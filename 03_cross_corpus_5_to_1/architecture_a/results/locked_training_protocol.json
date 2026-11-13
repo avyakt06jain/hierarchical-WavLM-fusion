@@ -1,0 +1,41 @@
+{
+  "architecture": "wavlm_large_ghf4x6_dptp_supcon_v1",
+  "pretrained_model": "microsoft/wavlm-large",
+  "pinned_revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+  "baseline_audit_sha256": "ec75e98020d2a0e17c93ca2a96155f0742b071c397929268c31ee1743a7a8788",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "balanced_sampler": "identical 5-corpus x 4-emotion sampler as plain baseline",
+  "optimizer": "AdamW, identical LR schedules to plain baseline",
+  "selection": "unweighted mean macro-F1 across 5 source-val corpora",
+  "held_out_test": "100% of sixth corpus, never used for adaptation",
+  "objective": "CE on effective batch + cross-speaker SupCon after frozen warmup",
+  "all_folds_training_parameters": {
+    "seed": 2026,
+    "crop_seconds": 4.0,
+    "eval_windows": 6,
+    "pme4_speech_trim": true,
+    "trim_context": 0.15,
+    "finetune_layers": 6,
+    "epochs": 28,
+    "freeze_epochs": 4,
+    "patience": 7,
+    "min_delta": 0.002,
+    "microbatch": 4,
+    "grad_accum": 4,
+    "head_lr_frozen": 0.0003,
+    "head_lr": 0.0001,
+    "backbone_lr": 5e-06,
+    "layer_decay": 0.85,
+    "weight_decay": 0.01,
+    "warmup_frac": 0.05,
+    "dropout": 0.3,
+    "supcon_weight": 0.05,
+    "supcon_temperature": 0.07,
+    "supcon_ramp_epochs": 3
+  }
+}

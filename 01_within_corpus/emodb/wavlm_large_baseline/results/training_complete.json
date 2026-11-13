@@ -1,0 +1,14 @@
+{
+  "completed_at_utc": "2026-11-10T23:24:37.687086+00:00",
+  "experiment": "emodb",
+  "best_epoch": 4,
+  "best_validation": {
+    "val_macro_corpus_uar": 0.7543214954979661,
+    "val_macro_corpus_f1": 0.7495691443059864,
+    "val_macro_corpus_acc": 0.75,
+    "val_loss": 1.114395019417886
+  },
+  "best_checkpoint_sha256": "ec70df04bd9a9bf100cc2fdc2bccf0a25d9325be0417f6aef28cf3aeb1a2ef5e",
+  "split_fingerprint": "7600c34165084e49a4c3f9faa945936341a6746e70b5a5de9fecdc425151c28c",
+  "note": "Test recordings were not evaluated during checkpoint selection"
+}

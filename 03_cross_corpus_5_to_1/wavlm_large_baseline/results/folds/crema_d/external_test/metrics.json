@@ -1,0 +1,48 @@
+{
+  "n_recordings": 4897,
+  "n_subjects": 91,
+  "pooled_accuracy": 0.5917908923830917,
+  "macro_f1": 0.5542153811535112,
+  "uar": 0.5790164425026331,
+  "mean_subject_accuracy": 0.5918896101479556,
+  "mean_subject_macro_f1": 0.5399762517744269,
+  "std_subject_accuracy": 0.0938382783999974,
+  "confusion_matrix": [
+    [
+      261,
+      739,
+      51,
+      35
+    ],
+    [
+      86,
+      1157,
+      18,
+      9
+    ],
+    [
+      52,
+      127,
+      1039,
+      53
+    ],
+    [
+      87,
+      456,
+      286,
+      441
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.5721838100081933,
+    0.6110412177995632
+  ],
+  "report_name": "CREMA-D: external zero-shot test",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "LayerNorm + dropout + Linear(1024,4)"
+}

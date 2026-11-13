@@ -1,0 +1,21 @@
+{
+  "n_recordings": 328,
+  "n_speakers": 11,
+  "accuracy": 0.725609756097561,
+  "mean_subject_accuracy": 0.7266233766233768,
+  "uar": 0.7251875908591284,
+  "macro_f1": 0.7254866573791438,
+  "weighted_f1": 0.7270815027795892,
+  "cross_entropy": 0.8073155077318015,
+  "auroc_macro_ovr": 0.9115854853011978,
+  "mean_subject_accuracy_95ci": [
+    0.6145021645021644,
+    0.8212391774891773
+  ],
+  "dataset": "pme4",
+  "split": "test",
+  "best_epoch": 16,
+  "unit": "original recording",
+  "speaker_overlap": true,
+  "original_recording_disjoint": true
+}

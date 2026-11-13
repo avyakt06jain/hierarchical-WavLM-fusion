@@ -1,0 +1,48 @@
+{
+  "n_recordings": 1388,
+  "n_subjects": 23,
+  "pooled_accuracy": 0.7528818443804035,
+  "macro_f1": 0.7466646719324572,
+  "uar": 0.7486176169433985,
+  "mean_subject_accuracy": 0.8137270619879315,
+  "mean_subject_macro_f1": 0.8018513568242326,
+  "std_subject_accuracy": 0.12604730650437343,
+  "confusion_matrix": [
+    [
+      203,
+      77,
+      33,
+      2
+    ],
+    [
+      46,
+      280,
+      19,
+      5
+    ],
+    [
+      15,
+      5,
+      340,
+      7
+    ],
+    [
+      46,
+      33,
+      55,
+      222
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.7636063952150908,
+    0.8624554091238874
+  ],
+  "report_name": "EAV: five-source validation",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "GHF 4x6 + DPTP attention/stats + Linear(512,256) + GELU + Dropout + Linear(256,4)"
+}

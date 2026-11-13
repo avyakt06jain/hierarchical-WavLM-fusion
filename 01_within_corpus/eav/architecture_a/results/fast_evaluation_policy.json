@@ -1,0 +1,12 @@
+{
+  "note": "Run-time validation scheduling only; original data, architecture and saved locked training hyperparameters unchanged.",
+  "val_full_every": 3,
+  "val_quick_windows": 1,
+  "eval_batch_size": 8,
+  "workers": 2,
+  "full_val_for_best_only": true,
+  "test_always_full_recording": true,
+  "resume": true,
+  "previous_script_sha256": "26c0c26c95bf03795852baba35b9668de07561a4deea3cf230c7acd1ab49ae36",
+  "source_script_sha256": "9f6a4c045c1f9eecdb2e081463cb885eb5f0b61874c157da00fe2e48c63c8e5f"
+}

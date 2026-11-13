@@ -1,0 +1,48 @@
+{
+  "n_recordings": 1812,
+  "n_subjects": 28,
+  "pooled_accuracy": 0.7455849889624724,
+  "macro_f1": 0.7434868826646198,
+  "uar": 0.7450031554080171,
+  "mean_subject_accuracy": 0.7739175242746671,
+  "mean_subject_macro_f1": 0.7618920416146292,
+  "std_subject_accuracy": 0.12996808114001765,
+  "confusion_matrix": [
+    [
+      309,
+      101,
+      3,
+      8
+    ],
+    [
+      39,
+      364,
+      20,
+      33
+    ],
+    [
+      34,
+      13,
+      392,
+      34
+    ],
+    [
+      44,
+      62,
+      70,
+      286
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.7254080506134077,
+    0.8238398244447351
+  ],
+  "report_name": "EMOVO: five-source validation",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "LayerNorm + dropout + Linear(1024,4)"
+}

@@ -1,0 +1,2 @@
+dataset,n_recordings,n_subjects,pooled_accuracy,macro_f1,mean_subject_accuracy,uar
+EMOVO,336,6,0.49404761904761907,0.4584104324880557,0.49404761904761907,0.49404761904761907

@@ -1,0 +1,26 @@
+{
+  "protocol": "PME4_SPEECH4_ALL11_SUBJECT_CLASS_STRATIFIED_70_15_15_V2",
+  "split": "val",
+  "primary_metric": "unweighted_mean_of_subject_accuracies",
+  "mean_subject_accuracy": 0.860878368942885,
+  "pooled_recording_accuracy": 0.8601823708206687,
+  "uar": 0.8611694677871148,
+  "macro_f1": 0.8602194450737076,
+  "weighted_f1": 0.8594195787911938,
+  "mean_subject_macro_f1": 0.8583652136477213,
+  "mean_subject_uar": 0.8607954545454544,
+  "subject_accuracy_std": 0.08878705553107535,
+  "n_subjects": 11,
+  "n_recordings": 329,
+  "n_correct": 283,
+  "n_incorrect": 46,
+  "total_windows": 658,
+  "cross_entropy": 0.4871036622076661,
+  "auroc_macro_ovr": 0.9580614692054977,
+  "subject_bootstrap_95ci": [
+    0.8121756737885769,
+    0.9101296955732439
+  ],
+  "best_epoch": 18,
+  "split_sha256": "0b13ea75b8460e81b903e9810adda2eb4bc874595a82cf0d82cdc3f8e930f715"
+}

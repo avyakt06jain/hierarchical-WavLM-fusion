@@ -1,0 +1,44 @@
+{
+  "dataset": "eav",
+  "protocol": "EAV_42_SUBJECT_OVERLAPPING_ORIGINAL_SPEAKING_RECORDING_DISJOINT_STRATIFIED_70_15_15_SEED42",
+  "model": "WavLM-Large final-layer masked mean + LayerNorm + Dropout(0.30) + Linear(num_classes)",
+  "no_ghf": true,
+  "no_dptp": true,
+  "no_supcon": true,
+  "splits": {
+    "train": 2940,
+    "val": 630,
+    "test": 630
+  },
+  "split_sha": "51160a8c71833429d01cc790e5a09a289b3642b5502e6b24165f0db9edd0a124",
+  "settings_sha": "8822b0a8877f6b13a6bc839efce90d204f0bf737f78f7c659247a1c35b3e51b1",
+  "settings": {
+    "data_root": "/workspace/data/EAV",
+    "classes": [
+      "Neutral",
+      "Sadness",
+      "Anger",
+      "Happiness",
+      "Calmness"
+    ],
+    "seed": 42,
+    "window_seconds": 5.0,
+    "noise_probability": 0.1,
+    "effective_batch": 20,
+    "updates_per_epoch": 147,
+    "frozen_batch": 10,
+    "finetune_batch": 4,
+    "eval_batch": 8,
+    "frozen_epochs": 4,
+    "max_epochs": 30,
+    "patience": 8,
+    "min_delta": 0.002,
+    "head_lr": 0.0003,
+    "finetune_head_lr": 0.0001,
+    "wavlm_lr": 5e-06,
+    "label_smoothing": 0.03,
+    "checkpoint_revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+    "gradient_checkpointing": true
+  },
+  "caveat": "All subjects overlap by design. Recording-level 70/15/15, not speaker-independent."
+}

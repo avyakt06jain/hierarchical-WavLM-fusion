@@ -1,0 +1,47 @@
+{
+  "source_audit_sha256": "ec75e98020d2a0e17c93ca2a96155f0742b071c397929268c31ee1743a7a8788",
+  "model_protocol": "wavlm_large_ghf4x6_dptp_supcon_v1",
+  "labels": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "split_verified_against_baseline": true,
+  "fold_counts": {
+    "EAV": {
+      "train": 7043,
+      "val": 1388,
+      "test": 3360
+    },
+    "CREMA-D": {
+      "train": 5780,
+      "val": 1114,
+      "test": 4897
+    },
+    "EmoDB": {
+      "train": 9650,
+      "val": 1802,
+      "test": 339
+    },
+    "EMOVO": {
+      "train": 9643,
+      "val": 1812,
+      "test": 336
+    },
+    "PME4": {
+      "train": 8134,
+      "val": 1468,
+      "test": 2189
+    },
+    "RAVDESS": {
+      "train": 9365,
+      "val": 1756,
+      "test": 670
+    }
+  },
+  "baseline_root": "/workspace/avyakt-sc-final/final-speech-rp",
+  "preprocessing_source": "baseline cache/read-only",
+  "checkpoint_selection": "unweighted mean source-validation corpus macro-F1",
+  "test_selection": "fully unseen target corpus; no adaptation"
+}

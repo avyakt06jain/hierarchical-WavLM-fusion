@@ -1,0 +1,34 @@
+{
+  "best_epoch": 20,
+  "best_val_metrics": {
+    "split": "val",
+    "protocol": "EAV_42_SUBJECT_OVERLAPPING_ORIGINAL_SPEAKING_RECORDING_DISJOINT_STRATIFIED_70_15_15_SEED42",
+    "n_subjects": 42,
+    "n_original_recordings": 630,
+    "mean_subject_accuracy": 1.0,
+    "subject_accuracy_std": 0.0,
+    "subject_bootstrap_95ci": [
+      1.0,
+      1.0
+    ],
+    "pooled_recording_accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "uar": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "mean_subject_macro_f1": 1.0,
+    "cohen_kappa": 1.0,
+    "mcc": 1.0,
+    "log_loss": 0.02718043134300697,
+    "multiclass_brier": 0.0021538264163875253,
+    "chance_accuracy": 0.2,
+    "best_epoch": 20,
+    "auroc_macro_ovr": 1.0
+  },
+  "manifest_sha": "8615e09d80581310d8a6375359d4094fa4b259b7a61bc9860ab1aaa4d41243c0",
+  "settings_sha": "d80c5792971752b01fb448fb87385685a055ae0ac7f68baac1beb50beefe6c2f",
+  "best_checkpoint_sha": "405f236fe0255085f86f85d77389be27b0e678dee01fe522cea52b76671d4de9",
+  "test_locked": true,
+  "subject_dependent": true
+}

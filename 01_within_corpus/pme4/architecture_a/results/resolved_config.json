@@ -1,0 +1,369 @@
+{
+  "protocol_id": "PME4_SPEECH4_ALL11_SUBJECT_CLASS_STRATIFIED_70_15_15_V2",
+  "name": "PME4_ARCH_A_WAVLM_LARGE_GHF_DPTP",
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "val": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "test": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "seed": 42,
+  "fixed_split_seed": 42,
+  "source_script_sha256": "63580dd44a3a00da553c46734d03a727688ad0f2dd4707b7ce2efcc8c4c17f42",
+  "dataset_root": "/workspace/avyakt-sc-final/data/pme4/pme4-dataset",
+  "window_samples": 64000,
+  "checkpoint_revision": "c1423ed94bb01d80a3f5ce5bc39f6026a0f4828c",
+  "schedule": "4 frozen + up to 24 finetune; select full-val MSA",
+  "target_classes": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "ignored_classes": [
+    "Fear",
+    "Disgust",
+    "Surprise"
+  ],
+  "split_protocol": "Original-recording-disjoint, stratified by subject and emotion; all 11 subjects in train/val/test; 70/15/15",
+  "caveat": "SPEAKER OVERLAP is intentional. This does not measure generalization to unseen subjects. The same numeric trial ID may occur in different splits for different subjects; experimental order remains a potential shortcut.",
+  "split_definition_sha256": "968a3a088387d3eec9b1c99b368af5a722ee2ca2b28a33ae298943bb03187a6c",
+  "per_subject_class_quota": {
+    "s01": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      }
+    },
+    "s02": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Angry": {
+        "total": 49,
+        "train": 34,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      }
+    },
+    "s03": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s04": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s05": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s06": {
+      "Neutral": {
+        "total": 51,
+        "train": 36,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 51,
+        "train": 36,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 52,
+        "train": 36,
+        "val": 8,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s07": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s08": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s09": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      }
+    },
+    "s10": {
+      "Neutral": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Sad": {
+        "total": 50,
+        "train": 35,
+        "val": 8,
+        "test": 7
+      },
+      "Angry": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "Happy": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      }
+    },
+    "s11": {
+      "Neutral": {
+        "total": 47,
+        "train": 33,
+        "val": 7,
+        "test": 7
+      },
+      "Sad": {
+        "total": 46,
+        "train": 32,
+        "val": 7,
+        "test": 7
+      },
+      "Angry": {
+        "total": 47,
+        "train": 33,
+        "val": 7,
+        "test": 7
+      },
+      "Happy": {
+        "total": 46,
+        "train": 32,
+        "val": 7,
+        "test": 7
+      }
+    }
+  },
+  "actual_recording_fractions": {
+    "train": 0.6998629511192326,
+    "val": 0.15029693924166285,
+    "test": 0.1498401096391046
+  },
+  "transformers_version": "4.46.3",
+  "torch": "2.15.0+cu132",
+  "scipy": "1.14.1",
+  "model": "WavLM Large + exact EAV GHF/DPTP",
+  "microbatch": 8,
+  "grad_accum": 2,
+  "train_recordings": 1532,
+  "sampled_examples_per_epoch": 1536,
+  "validation_recordings": 329,
+  "test_recordings": 328
+}

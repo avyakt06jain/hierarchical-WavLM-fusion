@@ -1,0 +1,14 @@
+{
+  "completed_at_utc": "2026-11-10T22:28:08.476360+00:00",
+  "experiment": "ravdess",
+  "best_epoch": 4,
+  "best_validation": {
+    "val_macro_corpus_uar": 0.9049473180076629,
+    "val_macro_corpus_f1": 0.9021397927393209,
+    "val_macro_corpus_acc": 0.9041916167664671,
+    "val_loss": 0.4894277758531869
+  },
+  "best_checkpoint_sha256": "9a79fb483bedb1170dd135ddb11c337d11b1d5bb7610db2881bd49365ed8bd19",
+  "split_fingerprint": "7e43cdc076ee08656a75f2e2b6eccba31712b54c18fa69820e8a72c5206ae0c9",
+  "note": "Test recordings were not evaluated during checkpoint selection"
+}

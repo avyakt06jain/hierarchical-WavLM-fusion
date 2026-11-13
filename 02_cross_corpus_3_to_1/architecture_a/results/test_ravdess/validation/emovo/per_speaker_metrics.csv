@@ -1,0 +1,2 @@
+speaker_id,corpus,n_recordings,accuracy,uar,macro_f1
+emovo:m3,emovo,84,0.5476190476190477,0.5476190476190476,0.5214090966779138

@@ -1,0 +1,45 @@
+# Secrets / environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+venv/
+.ipynb_checkpoints/
+.cache/
+.cache-*/
+
+# Model weights and large generated arrays
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.wav
+*.flac
+*.mp3
+*.mp4
+*.zip
+*.tar
+*.gz
+*.7z
+*.parquet
+
+# Logs / generated or temporary assets
+*.log
+*.lock
+*.tmp
+*.partial
+.DS_Store
+_incoming/
+**/audio_cache/
+**/resampled_audio_16k/
+**/hf_cache/
+**/cache/audio_16khz/

@@ -1,0 +1,48 @@
+{
+  "n_recordings": 1756,
+  "n_subjects": 25,
+  "pooled_accuracy": 0.806378132118451,
+  "macro_f1": 0.8046156899314291,
+  "uar": 0.8045730244143785,
+  "mean_subject_accuracy": 0.8350282865282865,
+  "mean_subject_macro_f1": 0.8235264940719937,
+  "std_subject_accuracy": 0.1264758818997153,
+  "confusion_matrix": [
+    [
+      303,
+      95,
+      15,
+      6
+    ],
+    [
+      49,
+      363,
+      16,
+      10
+    ],
+    [
+      23,
+      7,
+      419,
+      6
+    ],
+    [
+      30,
+      23,
+      60,
+      331
+    ]
+  ],
+  "mean_subject_accuracy_95ci_bootstrap": [
+    0.783381685999186,
+    0.8830611568986569
+  ],
+  "report_name": "RAVDESS: five-source validation",
+  "class_order": [
+    "Neutral",
+    "Sad",
+    "Angry",
+    "Happy"
+  ],
+  "head": "GHF 4x6 + DPTP attention/stats + Linear(512,256) + GELU + Dropout + Linear(256,4)"
+}
